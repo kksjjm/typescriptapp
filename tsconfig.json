@@ -1,0 +1,13 @@
+{
+    //어디에 ts file이 있는지 
+    "include": [
+        "src",
+    ],
+
+    "compilerOptions": {
+        "outDir": "build", // 어디로 compile 할래?
+        "target": "ES6", // 어떤 버젼의 JS로 compile할래?
+        "lib": ["ES6", "DOM"],
+        "strict": true,
+    }
+}
